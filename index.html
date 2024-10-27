@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=description content="description">
+    <link rel="prefetch prerender" href="./images/main/background/bg-top-01.webp" />
+
+    <link rel="preload" href="./css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="./css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/index.css">
+    </noscript>
+
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            outline-color: var(--color-green-focus);
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        button {
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .container {
+            margin: 0 auto;
+            padding: 0 32px;
+            max-width: 1174px;
+        }
+
+        .header {
+            padding-block: 20px;
+            background: var(--color-black-light);
+        }
+
+        .header__inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header__nav {
+            
+            flex-grow: 1;
+        }
+
+        .nav__link {
+            color: #fff;
+        }
+
+
+        .banner__img {
+            width: 100%;
+            height: 100%;
+        }
+
+      
+
+        .banner__title,
+        .banner__desc {
+            color: #fff;
+        }
+
+        .banner__title,
+        .banner__link,
+        .arrow {
+            font-family: var(--font-family-c-b);
+        }
+
+      
+
+        .banner__desc {
+            font-family: var(--font-family-o-r);
+        }
+
+        .banner__link,
+        .arrow {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+    <title>Natural artifacts</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <img class="header__logo" src="./images/header/icons/logo.svg" loading="lazy" alt="logo">
+               <div class="mobile-btn is-active"></div>
+                <nav class="header__nav nav mobile-nav">
+                    
+                    <a class="nav__link" href="#">Каталог</a>
+                    <a class="nav__link" href="#">Галерея</a>
+                    <a class="nav__link" href="#">О лаборатории</a>
+                    <a class="nav__link" href="#">Контакты</a>
+                </nav>
+                <button class="header__search-btn ">
+                    <img class="header__img img-icon" loading="lazy" width="24px" height="24px"
+                        src="./images/header/icons/search.svg" alt="icon-search">
+                </button>
+                <button class="header__login-btn ">
+                    <img class="header__img img-icon" loading="lazy" width="24px" height="24px"
+                        src="./images/header/icons/log-in.svg" alt="icon-login">
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="main__banner banner">
+            <img class="banner__img" src="./images/main/background/bg-top-01.webp" loading="eager" type="image/webp"
+                alt="plants">
+            <div class="container">
+                <h1 class="banner__title">Крупнейшая коллекция природных артефактов</h1>
+                <p class="banner__desc">Являясь всего лишь частью общей картины, интерактивные прототипы, которые
+                    представляют собой яркий пример европейского типа политической и социальной культуры.</p>
+                <a class="banner__link arrow" href="#">Исследовать <img class="arrow__img img-icon" loading="lazy"
+                        width="43px" height="13px" src="./images/main/background/icons/arrow.svg" alt="green-arrow"></a>
+            </div>
+        </section>
+
+
+        <section class="about">
+            <div class="container">
+                <h2 class="about__title">
+                    Новые артефакты
+                </h2>
+                <div class="about__inner">
+
+                    <div class="about__artifacts artifact">
+                        <img class="artifact__img" src="./images/main/about/moss_03_1.webp" loading="lazy"
+                            alt="artifact">
+                        <img class="artifact__img" src="./images/main/about/moss_06.webp" loading="lazy" alt="artifact">
+                        <img class="artifact__img" src="./images/main/about/layer_3_1.webp" loading="lazy"
+                            alt="artifact">
+                        <img class="artifact__img" src="./images/main/about/layer_2_1.webp" loading="lazy"
+                            alt="artifact">
+                        <img class="artifact__img" src="./images/main/about/polypody.webp" loading="lazy"
+                            alt="artifact">
+                        <img class="artifact__img" src="./images/main/about/bark_05.webp" loading="lazy" alt="artifact">
+                        <img class="artifact__img" src="./images/main/about/layer_1_2.webp" loading="lazy"
+                            alt="artifact">
+                    </div>
+                    <article class="about__article">
+                        <h3 class="about__article__title title">Kurische Nehrung 24</h3>
+                        <p class="about__article__text text">Вот вам яркий пример современных тенденций - начало
+                            повседневной
+                            работы по формированию позиции выявляет срочную потребность методов управления процессами.
+                        </p>
+                        <p class="about__article__text text">
+
+                            Есть над чем задуматься: представители современных социальных резервов своевременно
+                            верифицированы.</p>
+
+                        <a class="about__article__link arrow" href="#">Читать далее<img class="arrow__img img-icon"
+                                loading="lazy" width="43px" height="13px" src="./images/main/about/arrow.svg"
+                                alt="black-arrow"></a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="container">
+                <marquee class="gallery__view" behavior="alternate">
+                    <div class="gallery__scroll scroll">
+                        <article class="scroll__item item">
+                            <div class="item__photo"><img class="item__photo__img"
+                                    src="./images/main/gallery/article/layer-3.svg" loading="lazy" alt="card-photo">
+                            </div>
+                            <div class="item__description">
+                                <h3 class="item__title title">Fig. 1 (plant)</h3>
+                                <p class="item__text text">Имеется спорная точка зрения, гласящая примерно следующее:
+                                    активно
+                                    развивающиеся страны третьего мира своевременно верифицированы.</p>
+                                <button class="item__button button">Подробнее</button>
+                            </div>
+                        </article>
+                        <article class="scroll__item item">
+                            <div class="item__photo"><img class="item__photo__img"
+                                    src="./images/main/gallery/article/layer-2.svg" loading="lazy" alt="card-photo">
+                            </div>
+                            <div class="item__description">
+                                <h3 class="item__title title">Fig. 2 (flower)</h3>
+                                <p class="item__text text">Имеется спорная точка зрения, гласящая примерно следующее:
+                                    активно
+                                    развивающиеся страны третьего мира своевременно верифицированы.</p>
+                                <button class="item__button">Подробнее</button>
+                            </div>
+                        </article>
+                        <article class="scroll__item item">
+                            <div class="item__photo"><img class="item__photo__img"
+                                    src="./images/main/gallery/article/layer-4.webp" loading="lazy" alt="card-photo">
+                            </div>
+                            <div class="item__description">
+                                <h3 class="item__title title">Fig. 3 (leaf)</h3>
+                                <p class="item__text text">Имеется спорная точка зрения, гласящая примерно следующее:
+                                    активно
+                                    развивающиеся страны третьего мира своевременно верифицированы.</p>
+                                <button class="item__button">Подробнее</button>
+                            </div>
+                        </article>
+                        <article class="scroll__item item">
+                            <div class="item__photo"><img class="item__photo__img"
+                                    src="./images/main/gallery/article/layer-1.webp" loading="lazy" alt="card-photo">
+                            </div>
+                            <div class="item__description">
+                                <h3 class="item__title title">Fig. 4 (wood)</h3>
+                                <p class="item__text text">Имеется спорная точка зрения, гласящая примерно следующее:
+                                    активно
+                                    развивающиеся страны третьего мира своевременно верифицированы.</p>
+                                <button class="item__button">Подробнее</button>
+                            </div>
+                        </article>
+                        <article class="scroll__item item">
+                            <div class="item__photo"><img class="item__photo__img"
+                                    src="./images/main/gallery/article/layer-3.svg" loading="lazy" alt="card-photo">
+                            </div>
+                            <div class="item__description">
+                                <h3 class="item__title title">Fig. 1 (plant)</h3>
+                                <p class="item__text text">Имеется спорная точка зрения, гласящая примерно следующее:
+                                    активно
+                                    развивающиеся страны третьего мира своевременно верифицированы.</p>
+                                <button class="item__button">Подробнее</button>
+                            </div>
+                        </article>
+                        <article class="scroll__item item">
+                            <div class="item__photo"><img class="item__photo__img"
+                                    src="./images/main/gallery/article/layer-2.svg" loading="lazy" alt="card-photo">
+                            </div>
+                            <div class="item__description">
+                                <h3 class="item__title title">Fig. 2 (flower)</h3>
+                                <p class="item__text text">Имеется спорная точка зрения, гласящая примерно следующее:
+                                    активно
+                                    развивающиеся страны третьего мира своевременно верифицированы.</p>
+                                <button class="item__button">Подробнее</button>
+                            </div>
+                        </article>
+                        <article class="scroll__item item">
+                            <div class="item__photo"><img class="item__photo__img"
+                                    src="./images/main/gallery/article/layer-4.webp" loading="lazy" alt="card-photo">
+                            </div>
+                            <div class="item__description">
+                                <h3 class="item__title title">Fig. 3 (leaf)</h3>
+                                <p class="item__text text">Имеется спорная точка зрения, гласящая примерно следующее:
+                                    активно
+                                    развивающиеся страны третьего мира своевременно верифицированы.</p>
+                                <button class="item__button">Подробнее</button>
+                            </div>
+                        </article>
+                        <article class="scroll__item item">
+                            <div class="item__photo"><img class="item__photo__img"
+                                    src="./images/main/gallery/article/layer-1.webp" loading="lazy" alt="card-photo">
+                            </div>
+                            <div class="item__description">
+                                <h3 class="item__title title">Fig. 4 (wood)</h3>
+                                <p class="item__text text">Имеется спорная точка зрения, гласящая примерно следующее:
+                                    активно
+                                    развивающиеся страны третьего мира своевременно верифицированы.</p>
+                                <button class="item__button">Подробнее</button>
+                            </div>
+                        </article>
+                    </div>
+                </marquee>
+            </div>
+        </section>
+        <section class="main-form">
+            <section class="main-form__banner banner">
+                <img class="banner__img" src="./images/main/background/bg-bottom-1.webp" loading="lazy"
+                    type="image/webp" alt="plants">
+                <div class="container">
+                    <div class="banner__content">
+                        <h2 class="banner__title banner__title_bottom">Помочь проекту</h2>
+                        <p class="banner__desc banner__desc_bottom">Равным образом, экономическая повестка сегодняшнего
+                            дня не даёт
+                            нам иного выбора, кроме определения прогресса профессионального сообщества. Как принято
+                            считать, элементы политического процесса рассмотрены исключительно в разрезе маркетинговых и
+                            финансовых предпосылок. </p>
+                        <form action="#" class="form__inner">
+                            <input class="form__name" type="name" placeholder="Имя">
+                            <input class="form__email" type="email" placeholder="Email">
+                            <button class="form__button button" type="button">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <script defer src="./js/main.js"></script>
+
+    <footer class="footer">
+        <div class="footer__social">
+            <div class="container">
+               <div class="footer__social__item">
+
+                   <img class="footer__img" src="./images/footer/icons/vector-1.webp" loading="lazy" width="20px"
+                       height="20px" alt="youtube">
+               </div>
+               <div class="footer__social__item">
+
+                   <img class="footer__img" src="./images/footer/icons/vector-2.webp" loading="lazy" width="20px"
+                       height="20px" alt="instagram">
+               </div>
+               <div class="footer__social__item">
+
+                   <img class="footer__img" src="./images/footer/icons/vector-3.webp" loading="lazy" width="20px"
+                       height="20px" alt="facebook">
+               </div>
+               <div class="footer__social__item">
+
+                   <img class="footer__img" src="./images/footer/icons/vector-4.webp" loading="lazy" width="20px"
+                       height="20px" alt="x">
+               </div>
+            </div>
+        </div>
+        <div class="footer__copy copy">
+            <div class="container">
+
+                <p class="copy__text">© Artem Kukin, 2024</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
