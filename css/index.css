@@ -291,11 +291,7 @@ button {
   }
 }
 
-
 @media (max-width: 635px) {
-  .banner__title {
-    font-size: 48px;
-}
   .header__nav {
     position: absolute;
     background-color: var(--color-black-light);
@@ -306,14 +302,15 @@ button {
     padding: 15px 15px;
     z-index: -1;
     transition: all 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-width: 71%;
-   
+    width: 71%;
   }
-  
-  .header__nav.mobile-nav { 
+  .banner__title {
+    font-size: 48px;
+  }
+
+  .mobile-nav.mobile-nav {
     transform: translateX(-50%);
     z-index: 1;
-
   }
   .nav__link {
     padding: 10px;
@@ -383,7 +380,7 @@ width: 71%;
   .form__inner {
     width: auto;
     gap: 10px;
-}
+  }
 }
 
 @media (max-width: 508px) {
@@ -397,7 +394,6 @@ width: 71%;
 }
 
 @media (max-width: 480px) {
-
   .about__title {
     font-size: 32px;
   }
