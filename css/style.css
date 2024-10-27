@@ -156,7 +156,10 @@
   border: 1px solid var(--color-green-primary);
 }
 .gallery__view {
-  white-space: normal;
+  white-space: unset;
+  white-space-collapse: unset;
+  text-wrap-mode: unset;
+
 }
 
 /* -- About -- */
