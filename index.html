@@ -14,9 +14,7 @@
         <link rel="stylesheet" href="./css/index.css">
     </noscript>
 
-    <style type="text/css">
- * { margin: 0; padding: 0; outline-color: var(--color-green-focus); box-sizing: border-box; } a { text-decoration: none; } button { border: none; background: transparent; cursor: pointer; text-decoration: none; } .container { margin: 0 auto; padding: 0 32px; max-width: 1174px; } .header { padding-block: 20px; background: var(--color-black-light); } .header__inner { display: flex; justify-content: space-between; align-items: center; } .header__nav { flex-grow: 1; } .nav__link { color: #fff; } .banner__img { width: 100%; height: 100%; } .banner__title, .banner__desc { color: #fff; } .banner__title, .banner__link, .arrow { font-family: var(--font-family-c-b); } .banner__desc { font-family: var(--font-family-o-r); } .banner__link, .arrow { display: flex; align-items: center; }
-    </style>
+    <style type="text/css"> * { margin: 0; padding: 0; box-sizing: border-box; } a { text-decoration: none; } button { border: none; background: transparent; cursor: pointer; text-decoration: none; } .container { margin: 0 auto; padding: 0 32px; max-width: 1174px; } .header { padding-block: 20px; background: #1d2f30; } .header__inner { display: flex; justify-content: space-between; align-items: center; } .header__nav { flex-grow: 1; } .nav__link { color: #fff; } .banner__img { width: 100%; height: 100%; } .banner__title, .banner__desc { color: #fff; } .banner__title, .banner__link, .arrow { font-family: var(--font-family-c-b); } .banner__desc { font-family: var(--font-family-o-r); } .banner__link, .arrow { display: flex; align-items: center; } </style>
     <title>Natural artifacts</title>
 </head>
 
@@ -25,9 +23,9 @@
         <div class="container">
             <div class="header__inner">
                 <img class="header__logo" src="./images/header/icons/logo.svg" loading="lazy" alt="logo">
-               <div class="mobile-btn"></div>
+                <div class="mobile-btn"></div>
                 <nav class="header__nav nav">
-                    
+
                     <a class="nav__link" href="#">Каталог</a>
                     <a class="nav__link" href="#">Галерея</a>
                     <a class="nav__link" href="#">О лаборатории</a>
@@ -100,106 +98,62 @@
         </section>
         <section class="gallery">
             <div class="container">
-                <marquee class="gallery__view" behavior="alternate">
-                    <div class="gallery__scroll scroll">
-                        <article class="scroll__item item">
-                            <div class="item__photo"><img class="item__photo__img"
-                                    src="./images/main/gallery/article/layer-3.svg" loading="lazy" alt="card-photo">
-                            </div>
-                            <div class="item__description">
-                                <h3 class="item__title title">Fig. 1 (plant)</h3>
-                                <p class="item__text text">Имеется спорная точка зрения, гласящая примерно следующее:
-                                    активно
-                                    развивающиеся страны третьего мира своевременно верифицированы.</p>
-                                <button class="item__button button">Подробнее</button>
-                            </div>
-                        </article>
-                        <article class="scroll__item item">
-                            <div class="item__photo"><img class="item__photo__img"
-                                    src="./images/main/gallery/article/layer-2.svg" loading="lazy" alt="card-photo">
-                            </div>
-                            <div class="item__description">
-                                <h3 class="item__title title">Fig. 2 (flower)</h3>
-                                <p class="item__text text">Имеется спорная точка зрения, гласящая примерно следующее:
-                                    активно
-                                    развивающиеся страны третьего мира своевременно верифицированы.</p>
-                                <button class="item__button">Подробнее</button>
-                            </div>
-                        </article>
-                        <article class="scroll__item item">
-                            <div class="item__photo"><img class="item__photo__img"
-                                    src="./images/main/gallery/article/layer-4.webp" loading="lazy" alt="card-photo">
-                            </div>
-                            <div class="item__description">
-                                <h3 class="item__title title">Fig. 3 (leaf)</h3>
-                                <p class="item__text text">Имеется спорная точка зрения, гласящая примерно следующее:
-                                    активно
-                                    развивающиеся страны третьего мира своевременно верифицированы.</p>
-                                <button class="item__button">Подробнее</button>
-                            </div>
-                        </article>
-                        <article class="scroll__item item">
-                            <div class="item__photo"><img class="item__photo__img"
-                                    src="./images/main/gallery/article/layer-1.webp" loading="lazy" alt="card-photo">
-                            </div>
-                            <div class="item__description">
-                                <h3 class="item__title title">Fig. 4 (wood)</h3>
-                                <p class="item__text text">Имеется спорная точка зрения, гласящая примерно следующее:
-                                    активно
-                                    развивающиеся страны третьего мира своевременно верифицированы.</p>
-                                <button class="item__button">Подробнее</button>
-                            </div>
-                        </article>
-                        <article class="scroll__item item">
-                            <div class="item__photo"><img class="item__photo__img"
-                                    src="./images/main/gallery/article/layer-3.svg" loading="lazy" alt="card-photo">
-                            </div>
-                            <div class="item__description">
-                                <h3 class="item__title title">Fig. 1 (plant)</h3>
-                                <p class="item__text text">Имеется спорная точка зрения, гласящая примерно следующее:
-                                    активно
-                                    развивающиеся страны третьего мира своевременно верифицированы.</p>
-                                <button class="item__button">Подробнее</button>
-                            </div>
-                        </article>
-                        <article class="scroll__item item">
-                            <div class="item__photo"><img class="item__photo__img"
-                                    src="./images/main/gallery/article/layer-2.svg" loading="lazy" alt="card-photo">
-                            </div>
-                            <div class="item__description">
-                                <h3 class="item__title title">Fig. 2 (flower)</h3>
-                                <p class="item__text text">Имеется спорная точка зрения, гласящая примерно следующее:
-                                    активно
-                                    развивающиеся страны третьего мира своевременно верифицированы.</p>
-                                <button class="item__button">Подробнее</button>
-                            </div>
-                        </article>
-                        <article class="scroll__item item">
-                            <div class="item__photo"><img class="item__photo__img"
-                                    src="./images/main/gallery/article/layer-4.webp" loading="lazy" alt="card-photo">
-                            </div>
-                            <div class="item__description">
-                                <h3 class="item__title title">Fig. 3 (leaf)</h3>
-                                <p class="item__text text">Имеется спорная точка зрения, гласящая примерно следующее:
-                                    активно
-                                    развивающиеся страны третьего мира своевременно верифицированы.</p>
-                                <button class="item__button">Подробнее</button>
-                            </div>
-                        </article>
-                        <article class="scroll__item item">
-                            <div class="item__photo"><img class="item__photo__img"
-                                    src="./images/main/gallery/article/layer-1.webp" loading="lazy" alt="card-photo">
-                            </div>
-                            <div class="item__description">
-                                <h3 class="item__title title">Fig. 4 (wood)</h3>
-                                <p class="item__text text">Имеется спорная точка зрения, гласящая примерно следующее:
-                                    активно
-                                    развивающиеся страны третьего мира своевременно верифицированы.</p>
-                                <button class="item__button">Подробнее</button>
-                            </div>
-                        </article>
-                    </div>
-                </marquee>
+
+                <div class="gallery__card card">
+                    <article class="card__item item">
+                        <div class="item__photo"><img class="item__photo__img"
+                                src="./images/main/gallery/article/layer-3.svg" loading="lazy" alt="card-photo">
+                        </div>
+                        <div class="item__description">
+                            <h3 class="item__title title">Fig. 1 (plant)</h3>
+                            <p class="item__text text">Имеется спорная точка зрения, гласящая примерно следующее:
+                                активно
+                                развивающиеся страны третьего мира своевременно верифицированы.</p>
+                            <button class="item__button button">Подробнее</button>
+                        </div>
+                    </article>
+                    <article class="card__item item">
+                        <div class="item__photo"><img class="item__photo__img"
+                                src="./images/main/gallery/article/layer-2.svg" loading="lazy" alt="card-photo">
+                        </div>
+                        <div class="item__description">
+                            <h3 class="item__title title">Fig. 2 (flower)</h3>
+                            <p class="item__text text">Имеется спорная точка зрения, гласящая примерно следующее:
+                                активно
+                                развивающиеся страны третьего мира своевременно верифицированы.</p>
+                            <button class="item__button">Подробнее</button>
+                        </div>
+                    </article>
+                    <article class="card__item item">
+                        <div class="item__photo"><img class="item__photo__img"
+                                src="./images/main/gallery/article/layer-4.webp" loading="lazy" alt="card-photo">
+                        </div>
+                        <div class="item__description">
+                            <h3 class="item__title title">Fig. 3 (leaf)</h3>
+                            <p class="item__text text">Имеется спорная точка зрения, гласящая примерно следующее:
+                                активно
+                                развивающиеся страны третьего мира своевременно верифицированы.</p>
+                            <button class="item__button">Подробнее</button>
+                        </div>
+                    </article>
+                    <article class="card__item item">
+                        <div class="item__photo"><img class="item__photo__img"
+                                src="./images/main/gallery/article/layer-1.webp" loading="lazy" alt="card-photo">
+                        </div>
+                        <div class="item__description">
+                            <h3 class="item__title title">Fig. 4 (wood)</h3>
+                            <p class="item__text text">Имеется спорная точка зрения, гласящая примерно следующее:
+                                активно
+                                развивающиеся страны третьего мира своевременно верифицированы.</p>
+                            <button class="item__button">Подробнее</button>
+                        </div>
+                    </article>
+
+
+                </div>
+
+
+
             </div>
         </section>
         <section class="main-form">
@@ -229,26 +183,26 @@
     <footer class="footer">
         <div class="footer__social">
             <div class="container">
-               <div class="footer__social__item">
+                <div class="footer__social__item">
 
-                   <img class="footer__img" src="./images/footer/icons/vector-1.webp" loading="lazy" width="20px"
-                       height="20px" alt="youtube">
-               </div>
-               <div class="footer__social__item">
+                    <img class="footer__img" src="./images/footer/icons/vector-1.webp" loading="lazy" width="20px"
+                        height="20px" alt="youtube">
+                </div>
+                <div class="footer__social__item">
 
-                   <img class="footer__img" src="./images/footer/icons/vector-2.webp" loading="lazy" width="20px"
-                       height="20px" alt="instagram">
-               </div>
-               <div class="footer__social__item">
+                    <img class="footer__img" src="./images/footer/icons/vector-2.webp" loading="lazy" width="20px"
+                        height="20px" alt="instagram">
+                </div>
+                <div class="footer__social__item">
 
-                   <img class="footer__img" src="./images/footer/icons/vector-3.webp" loading="lazy" width="20px"
-                       height="20px" alt="facebook">
-               </div>
-               <div class="footer__social__item">
+                    <img class="footer__img" src="./images/footer/icons/vector-3.webp" loading="lazy" width="20px"
+                        height="20px" alt="facebook">
+                </div>
+                <div class="footer__social__item">
 
-                   <img class="footer__img" src="./images/footer/icons/vector-4.webp" loading="lazy" width="20px"
-                       height="20px" alt="x">
-               </div>
+                    <img class="footer__img" src="./images/footer/icons/vector-4.webp" loading="lazy" width="20px"
+                        height="20px" alt="x">
+                </div>
             </div>
         </div>
         <div class="footer__copy copy">
